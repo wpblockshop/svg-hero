@@ -1,2 +1,2 @@
 # svg-hero
-An SVG customization plugin for wpBlockshop
+An SVG customization plugin for wpBlockShop

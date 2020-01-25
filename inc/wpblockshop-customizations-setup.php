@@ -1,7 +1,10 @@
 <?php
+/**
+ * If you can't doublic click on the function name, you've got a problem.
+ */
 
-add_action( 'wp_enqueue_scripts', 'enqueue_wpblockshop_svg-hero_style', 13 );
-function enqueue_wpblockshop_svg - hero_style() {
+add_action( 'wp_enqueue_scripts', 'enqueue_wpblockshop_svg_hero_style', 13 );
+function enqueue_wpblockshop_svg_hero_style() {
 	wp_register_style( 'wpblockshop-svg-hero-style', plugins_url( 'css/wpblockshop-svg-hero-style.css', __FILE__ ), [], time() );
 	wp_enqueue_style( 'wpblockshop-svg-hero-style' );
 }

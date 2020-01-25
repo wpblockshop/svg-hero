@@ -3,7 +3,7 @@ console.clear();
 select = e => document.querySelector(e);
 selectAll = e => document.querySelectorAll(e);
 
-const container = select('.container');
+const wp_Block_SVG_Hero_AlignFull = select('.wp-block-svg-hero alignfull');
 const jamTime = 6;
 const jamDist = 700;
 let master = gsap.timeline({ delay: 1 });

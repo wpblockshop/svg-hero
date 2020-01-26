@@ -1,6 +1,6 @@
 .container {
      /*------FROM BODY-------*/
-    /*display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -11,15 +11,13 @@
     font-size: 21px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-display: block;*/
+    font-display: block;
     /*-------------*/
-	/*position: relative;
+	position: relative;
 	width: 1980px;
     height: 1020px;
-	visibility: hidden;*/
-    /*background: red;*/
-/*    cursor: pointer;
-*/    /*overflow: hidden;*/
+	visibility: hidden;
+    cursor: pointer;
 }
 
 .jam {
